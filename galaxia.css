@@ -1,0 +1,74 @@
+h1{
+    color: aqua;
+   
+    text-shadow:
+        0 0 10px aqua,
+        0 0 20px aqua,
+        0 0 40px aqua,
+        0 0 80px aqua;
+
+    text-align: center;
+}
+
+body{
+    background-color: black;
+
+}
+
+p{
+    color: white;
+}
+
+h2{
+    color: aqua;
+}
+
+h3{
+    color: aqua;
+     text-shadow:
+        0 0 10px aqua,
+        0 0 20px aqua,
+        0 0 40px aqua,
+        0 0 80px aqua;
+
+}
+
+img{
+    width: 350px;
+    border-radius: 15px;
+
+    border: 2px solid rgb(255, 255, 255);
+
+    box-shadow:
+        0 0 10px white,
+        0 0 20px white,
+        0 0 40px white;
+
+    animation: brilho 2s infinite alternate;
+    
+}
+
+@keyframes brilho{
+    from{
+        box-shadow:
+            0 0 10px rgb(255, 255, 255),
+            0 0 20px rgb(255, 255, 255);
+    }
+
+    to{
+        box-shadow:
+            0 0 20px rgb(255, 255, 255),
+            0 0 40px rgb(255, 255, 255),
+            0 0 80px rgb(255, 255, 255);
+    }
+}
+strong{
+    color: aqua;
+    text-shadow:
+        0 0 10px aqua,
+        0 0 20px aqua,
+        0 0 40px aqua,
+        0 0 80px aqua;
+
+
+}
