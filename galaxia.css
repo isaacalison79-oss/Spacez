@@ -72,3 +72,15 @@ strong{
 
 
 }
+#especial{
+    display: block;
+    margin: auto;
+      box-shadow: none;
+    filter: none;
+     animation: none;
+     border: none;
+}
+#diferente{
+   display: block;
+    text-align: center;
+}
